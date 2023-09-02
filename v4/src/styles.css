@@ -1,0 +1,468 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 360px) {
+  .vertical-text {
+    display: none;
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .vertical-text {
+    display: none;
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  a.vertical-text:hover {
+    color: #90caf9;
+    margin-bottom: 0.6em;
+  }
+  a.vertical-text {
+    text-decoration: none;
+  }
+  .vertical-text {
+    display: block;
+    height: 20em;
+    position: fixed;
+    margin-right: 4.2em;
+    right: -1.8em;
+    bottom: 0;
+    letter-spacing: 0.1em;
+    writing-mode: vertical-lr;
+  }
+  .social-icons > li > a > svg:hover {
+    padding-bottom: 0.5em;
+    fill: rgba(100, 181, 246, 1);
+  }
+  .social-icons > li > a > svg {
+    width: 1.2em;
+    fill: white;
+  }
+  .social-icons {
+    display: block;
+    height: 24em;
+    position: fixed;
+    margin-left: 4em;
+    left: -4em;
+    bottom: 0;
+  }
+  .social-icons > li {
+    margin-bottom: 1.8em;
+  }
+  .vl-left {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    left: 3em;
+    bottom: 0;
+  }
+  .vl-right {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    right: 3em;
+    bottom: 0;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  a.vertical-text:hover {
+    color: #90caf9;
+    margin-bottom: 0.6em;
+  }
+  a.vertical-text {
+    text-decoration: none;
+  }
+  .vertical-text {
+    display: block;
+    height: 22em;
+    position: fixed;
+    margin-right: 4.2em;
+    right: -2em;
+    bottom: 0;
+    letter-spacing: 0.2em;
+    writing-mode: vertical-lr;
+  }
+  .social-icons > li > a > svg:hover {
+    padding-bottom: 0.5em;
+    fill: rgba(100, 181, 246, 1);
+  }
+  .social-icons > li > a > svg {
+    width: 1.2em;
+    fill: white;
+  }
+  .social-icons {
+    display: block;
+    height: 24em;
+    position: fixed;
+    margin-left: 4em;
+    left: -4.2em;
+    bottom: 0;
+  }
+  .social-icons > li {
+    margin-bottom: 1.8em;
+  }
+  .vl-left {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    left: 2.8em;
+    bottom: 0;
+  }
+  .vl-right {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    right: 2.8em;
+    bottom: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  a.vertical-text:hover {
+    color: #90caf9;
+    margin-bottom: 0.6em;
+  }
+  a.vertical-text {
+    text-decoration: none;
+  }
+  .vertical-text {
+    display: block;
+    height: 22em;
+    position: fixed;
+    margin-right: 4.2em;
+    right: -0.8em;
+    bottom: 0;
+    width: 1.2em;
+    letter-spacing: 0.2em;
+    writing-mode: vertical-lr;
+  }
+  .social-icons > li > a > svg:hover {
+    padding-bottom: 0.5em;
+    fill: rgba(100, 181, 246, 1);
+  }
+  .social-icons > li > a > svg {
+    width: 1.2em;
+    fill: white;
+  }
+  .social-icons {
+    display: block;
+    height: 24em;
+    position: fixed;
+    margin-left: 4em;
+    left: -3em;
+    bottom: 0;
+  }
+  .social-icons > li {
+    margin-bottom: 1.8em;
+  }
+  .vl-left {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    left: 4em;
+    bottom: 0;
+  }
+  .vl-right {
+    border-left: 1px solid white;
+    height: 8em;
+    position: fixed;
+    overflow: hidden;
+    right: 4em;
+    bottom: 0;
+  }
+}
+
+body {
+  background-color: rgb(10, 25, 47);
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.close {
+  color: #fff;
+  opacity: 1;
+}
+
+.vertical-center-80vh {
+  min-height: 80%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 80vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.width-80vw {
+  min-width: 80%;
+  min-width: 80vw;
+}
+
+.width-60vw {
+  min-width: 60%;
+  min-width: 60vw;
+}
+
+.height-120vh {
+  min-height: 120%;
+  min-height: 120vh;
+}
+
+.height-80vh {
+  min-height: 80%;
+  min-height: 80vh;
+}
+
+.height-60vh {
+  min-height: 60%;
+  min-height: 60vh;
+}
+
+.height-100vh {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.vertical-center-60vh {
+  min-height: 60%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 60vh;
+  /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.my-footer {
+  min-height: 8%;
+  min-height: 8vh;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #90caf9;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+  color: white;
+}
+
+.separator-right {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator-right::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid grey;
+}
+
+.separator-right::after {
+  margin-left: 1em;
+  margin-right: 2rem;
+}
+
+.separator-left {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator-left::before {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid grey;
+}
+
+.separator-left::before {
+  margin-right: 1em;
+  margin-right: 2rem;
+}
+
+.nav-link.exp {
+  padding: 1em;
+  padding-left: 3em;
+  border-radius: 0;
+  color: #9e9e9e;
+  border-left: 2px solid #9e9e9e;
+}
+
+.nav-link.exp.active {
+  border-left: 4px solid #90caf9;
+  background-color: rgba(144, 202, 249, 0.05) !important;
+  color: #90caf9;
+  /* border-bottom: 1px solid #90caf9; */
+}
+
+.bg-work-card {
+  border-radius: 0.5rem;
+  background-color: rgba(144, 202, 249, 0.08);
+}
+
+.bg-modal {
+  border-radius: 0.5rem;
+  background-color: rgb(10, 25, 47);
+}
+
+.modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  /* background-color: aqua; */
+}
+
+.btn-outline-grey {
+  border: 1px solid #bdbdbd;
+  color: #bdbdbd;
+}
+
+.btn-outline-grey:hover {
+  border: 1px solid #90caf9;
+  color: #90caf9;
+  background-color: rgba(187, 222, 251, 0.1);
+}
+
+.btn-outline-blue {
+  border: 1px solid #90caf9;
+  color: #90caf9;
+}
+
+.btn-outline-blue:hover {
+  border: 1px solid #90caf9;
+  color: #ffffff;
+  background-color: rgba(187, 222, 251, 0.1);
+}
+
+.btn-filled-blue {
+  border: 1px solid #90caf9;
+  color: #90caf9;
+  background-color: rgba(187, 222, 251, 0.1);
+}
+
+.btn-filled-blue:hover {
+  border: 1px solid #90caf9;
+  color: #ffffff;
+  background-color: rgba(187, 222, 251, 0.1);
+}
+
+a.custom-link {
+  color: #90caf9;
+}
+
+a.custom-link:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.underline {
+  --line: #646b8c;
+  text-decoration: none;
+  position: relative;
+}
+
+.underline span {
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(var(--line)),
+    to(var(--line))
+  );
+  background-image: linear-gradient(0deg, var(--line) 0%, var(--line) 100%);
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: var(--background-size, 100%) 1px;
+  -webkit-transition: background-size 0.2s linear var(--background-delay, 0.15s);
+  transition: background-size 0.2s linear var(--background-delay, 0.15s);
+  font-size: 16px;
+  line-height: 20px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.underline svg {
+  vertical-align: top;
+  display: inline;
+  line-height: 1;
+  width: 13px;
+  height: 20px;
+  position: relative;
+  left: -2px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1px;
+  stroke: var(--line);
+  stroke-dasharray: 7.95 30;
+  stroke-dashoffset: var(--stroke-dashoffset, 46);
+  -webkit-transition: stroke-dashoffset var(--stroke-duration, 0.15s)
+    var(--stroke-easing, linear) var(--stroke-delay, 0s);
+  transition: stroke-dashoffset var(--stroke-duration, 0.15s)
+    var(--stroke-easing, linear) var(--stroke-delay, 0s);
+}
+
+.underline:hover {
+  --background-size: 0%;
+  --background-delay: 0s;
+  --stroke-dashoffset: 26;
+  --stroke-duration: 0.3s;
+  --stroke-easing: cubic-bezier(0.3, 1.5, 0.5, 1);
+  --stroke-delay: 0.195s;
+}
+
+.bg-input-field {
+  border-radius: 0.5rem;
+  background-color: rgba(144, 202, 249, 0.01);
+}
+
+.bg-input-field:focus {
+  border-radius: 0.5rem;
+  color: #fff;
+  background-color: rgba(144, 202, 249, 0.1);
+}
+
+.bg-input-field:focus::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.bg-accordion-button.btn[aria-expanded="true"] {
+  border-left: 4px solid #90caf9;
+  background-color: rgba(144, 202, 249, 0.05) !important;
+  color: #90caf9;
+}
