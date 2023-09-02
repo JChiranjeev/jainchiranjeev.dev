@@ -1,0 +1,12 @@
+.card-list {
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+}
+
+.btn {
+    border-radius: 1rem
+}

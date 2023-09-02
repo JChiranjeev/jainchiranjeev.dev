@@ -1,0 +1,19 @@
+.rotate {
+  animation-name: ani-rotate;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: none;
+  overflow: hidden;
+}
+
+@keyframes ani-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
