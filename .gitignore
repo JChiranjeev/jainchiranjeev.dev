@@ -8,3 +8,6 @@
 /.vs/jainchiranjeev.dev/FileContentIndex/b82c737e-fbd3-497a-8f37-241df756390d.vsidx
 /.vs/jainchiranjeev.dev/FileContentIndex/read.lock
 /.vs/slnx.sqlite
+*.bin
+.vs/jainchiranjeev.dev/v17/.wsuo
+.vs/VSWorkspaceState.json
