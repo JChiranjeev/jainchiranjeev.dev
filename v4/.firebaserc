@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "portfolio-site-d73fc": {
+      "hosting": {
+        "jainchiranjeev-dev": [
+          "portfolio-site-d73fc"
+        ]
+      }
+    }
+  }
+}

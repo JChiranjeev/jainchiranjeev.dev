@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "jainchiranjeev-dev",
+      "public": "dist/jainchiranjeev-dev",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
