@@ -71,9 +71,9 @@ export default {
     whoIAm: "Hi, I am a Full Stack Consultant based in Ahmedabad, India",
     whatIDo: "I enjoy making apps and websites that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.",
     techList1: [
+        "Azure Cloud Architecture",
         "C# .NET Core / Framework",
         ".NET Web APIs",
-        "Azure Cloud Architecture",
         "Az CLI",
         "Azure DevOps",
         "Terraform for IaC",
@@ -89,17 +89,46 @@ export default {
         "Powershell Scripting",
         "Firebase"
     ],
-    experience: [
+    work: [
         {
             dataAosDuration: "1600",
+            position: "Consultant - Team Lead",
+            company: "Hoonartek",
+            companyUrl: "https://hoonartek.com/",
+            startDate: "September 2022",
+            endDate: "Current",
+            coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60526.31549031848!2d73.85827355!3d18.5336592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1ed456aa677%3A0xc66f888156c06726!2sHoonartek!5e0!3m2!1sen!2sin!4v1693476126087!5m2!1sen!2sin",
+            workSummary: "Working as a Team Lead for multiple modules. Managing a team of 8 people with varied exp (4 - 12 Years).",
+            workDescription: [
+                {
+                    client: "Client: Kornferry, USA",
+                    descriptionList: [
+                        "Working on .NET Core and Azure technologies for Global Organizational Consulting firm - Kornferry",
+                        "Team Lead for multiple modules. Managing a team with people with varied exp (4 - 12 Years). Trained the entire team on Microsoft Azure.",
+                        "Working directly with Clients without any mediators.",
+                        "Redesigned and Re-Architect Learning Management Module Search API from the ground up.",
+                        "Designed and Delivered Complete Integrations with multiple learning content providers (Udemy, Skillsoft and Pluralsight)",
+                        "Regular hands-on with .NET Core 6.0, Azure Functions, ESB, Storage Accounts, App Service Plans, EFCore, PostgreSQL, ElasticIndex, Az CLI, Powershell and more",
+                        "Multiple design patterns implemented as per module requirements. Mediator Pattern, Repository Pattern and Event Handler patterns.",
+                        "Working with more than 5 different module teams for integrations and handshakes for multiple features",
+                        "Managed complete delivery process and documentations every sprint for seamless"
+                    ]
+                }
+            ],
+            awards: []
+        },
+        {
+            dataAosDuration: "1700",
             position: "Associate Consultant - Azure Practice",
             company: "Dynamic Elements Technologies",
             companyUrl: "https://www.dynamicelements.no/",
             startDate: "June 2021",
             endDate: "September 2022",
-            workList: [
+            coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.3120173184757!2d72.50074937614802!3d23.01231317918088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9b26d029d333%3A0x745280f406c3e7d1!2sDynamic%20Elements%20Technologies%20(India)%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1693199635730!5m2!1sen!2sin",
+            workSummary: "I worked with a Norwegian Client (Norges Idrets Forbund) on their product with Azure Services, Azure DevOps and Terraform",
+            workDescription: [
                 {
-                    client: "Norwegian Sports Federation",
+                    client: "Client: Norwegian Sports Federation, Norway",
                     descriptionList: [
                         "Working on .NET Core and Azure technologies for Norwegian Sports Federation",
                         "Regular hands-on with .NET Core 3.0, ServiceFabric services, Azure Functions, ESB, CosmosDB, Storage Accounts, App Service Plans, SQL and more",
@@ -138,15 +167,17 @@ export default {
             ]
         },
         {
-            dataAosDuration: "1700",
+            dataAosDuration: "1800",
             position: "Associate Consultant",
             company: "Capgemini India",
             companyUrl: "https://www.capgemini.com/in-en/",
             startDate: "Oct 2017",
             endDate: "June 2021",
-            workList: [
+            coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.3524446256497!2d72.99047459096289!3d19.1750222993891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82199eff3c1%3A0xadc12a3ea95899a9!2sCapgemini%20Technology%20Services%20India%20Limited!5e0!3m2!1sen!2sin!4v1693475431906!5m2!1sen!2sin",
+            workSummary: "I worked with a Norwegian Client (Norges Idrets Forbund) on their product with Azure Services, Azure DevOps and Terraform",
+            workDescription: [
                 {
-                    client: "Client: European Automotive Client",
+                    client: "Client: ALD Automotive, EU",
                     descriptionList: [
                         "Worked on micro-services in .NET Core hosted on ServiceFabricCluster on Azure for an Automotive client.",
                         "Handled DevOps tasks including Azure Boards management, Pipeline creation and Deployments.",
@@ -155,7 +186,7 @@ export default {
                     ]
                 },
                 {
-                    client: "Client: American Insurance Client",
+                    client: "Client: Global Indemnity, USA",
                     descriptionList: [
                         "Worked on transitioning a multi-application stack from traditional on-site servers to serverless on Azure for American Insurance Client.",
                         "Integrating services among Azure Functions, ESB, Table & Blob Storage, SQL Server, EFCore, EntityFramework, Linq, and more for the Insurance Client.",
@@ -166,7 +197,7 @@ export default {
                     ]
                 },
                 {
-                    client: "Client: American Finance Client",
+                    client: "Client: LPL Financial, USA",
                     descriptionList: [
                         "Worked on migrating a major application from SQL Server 2008 and IIS 6 to SQL Server 2016 and IIS 10 for another American Finance Client.",
                         "Co-ordinated with a team for creation of an in-house code coverage tool using Java, SpringBoot, MySQL and Angular.",
@@ -179,13 +210,15 @@ export default {
             awards: []
         },
         {
-            dataAosDuration: "1800",
+            dataAosDuration: "1900",
             position: "Freelance Android & Web Developer",
             company: null,
             companyUrl: null,
             startDate: null,
             endDate: null,
-            workList: [
+            coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29918009375!2d72.41493445785476!3d23.020158089023216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1693475636374!5m2!1sen!2sin",
+            workSummary: "I worked with a Norwegian Client (Norges Idrets Forbund) on their product with Azure Services, Azure DevOps and Terraform",
+            workDescription: [
                 {
                     client: "Android Development",
                     descriptionList: [
@@ -207,5 +240,63 @@ export default {
             ],
             awards: []
         }
+    ],
+    projects: [
+        {
+            title: "Notes",
+            illustrationName: "Notes",
+            description: "Quickly capture what's on your mind at any place or time",
+            url: "",
+            playStoreUrl: "https://play.google.com/store/apps/details?id=dev.jainchiranjeev.notes",
+            githubUrl: "https://github.com/JChiranjeev/notes",
+        },
+        {
+            title: "Git Profile",
+            illustrationName: "GitProfile",
+            description: "Git Profile provides a nicer look to your Github Profile Stats and Information",
+            url: "",
+            playStoreUrl: "https://play.google.com/store/apps/details?id=dev.jainchiranjeev.gitprofile",
+            githubUrl: "https://github.com/JChiranjeev/git-profile",
+        },
+        {
+            title: "Unit Converter",
+            illustrationName: "UnitConverter",
+            description: "An offline app to convert between units of measurements",
+            url: "",
+            playStoreUrl: "https://play.google.com/store/apps/details?id=com.jainchiranjeev.unitconverter",
+            githubUrl: "",
+        },
+        {
+            title: "Community Connect",
+            illustrationName: "CommunityConnect",
+            description: "A complex & robust application for managing members information in a community",
+            url: "",
+            playStoreUrl: "",
+            githubUrl: "",
+        },
+        {
+            title: "Clock Widget",
+            illustrationName: "ClockWidget",
+            description: "Basic Material Designed Clock Widget that provides shortcut for all different OEMs clock apps",
+            url: "",
+            playStoreUrl: "https://play.google.com/store/apps/details?id=com.jainchiranjeev.clock.analogclock",
+            githubUrl: "",
+        },
+        {
+            title: "Offline Notes PWA",
+            illustrationName: "OfflineNotes",
+            description: "An offline notepad application for your browser",
+            url: "",
+            playStoreUrl: "",
+            githubUrl: "https://github.com/JChiranjeev/offline-notes",
+        },
+        {
+            title: "Wally",
+            illustrationName: "Wally",
+            description: "Simple wallpaper application that provides high quality wallpapers",
+            url: "",
+            playStoreUrl: "",
+            githubUrl: "",
+        },
     ]
 }

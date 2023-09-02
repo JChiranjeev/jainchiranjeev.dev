@@ -2,27 +2,29 @@ import React from "react";
 import uuid from "react-uuid";
 
 import Theme1 from "../../themes/theme1";
+import ResumeLightMode from "../../assets/illustrations/resume-lightmode.svg";
+import ResumeDarkMode from "../../assets/illustrations/resume-darkmode.svg";
+import WorkCard from "./work-card/WorkCard";
 import Data from "../../data/data";
-import ProjectsDarkMode from "../../assets/illustrations/projects-darkmode.svg";
-import ProjectsLightMode from "../../assets/illustrations/projects-lightmode.svg";
-import "./Projects.css";
-import ProjectCard from "./project-card/ProjectCard";
+import "./Work.css";
 
-export default function Projects(props) {
-    const projectCards = Data.projects.map(project => {
+export default function Work(props) {
+    const workCards = Data.work.map(work => {
         return (
-            <ProjectCard
+            <WorkCard
                 key={uuid()}
                 darkMode={props.darkMode}
-                dataAosDuration={project.dataAosDuration}
-                title={project.title}
-                description={project.description}
-                illustrationName={project.illustrationName}
-                url={project.url}
-                playStoreUrl={project.playStoreUrl}
-                githubUrl={project.githubUrl}
-            />
-        )
+                dataAosDuration={work.dataAosDuration}
+                position={work.position}
+                company={work.company}
+                companyUrl={work.companyUrl}
+                startDate={work.startDate}
+                endDate={work.endDate}
+                coordinates={work.coordinates}
+                workDescription={work.workDescription}
+                workSummary={work.workSummary}
+                awards={work.awards} />
+        );
     });
     return (
         <div className="container align-items-center justify-content-center py-5" style={{
@@ -42,16 +44,16 @@ export default function Projects(props) {
                             <h1 className="mt-5 text-center" style={{
                                 fontWeight: "700"
                             }}>
-                                Personal Projects
+                                Work Experience
                             </h1>
-                            <img src={props.darkMode ? ProjectsDarkMode : ProjectsLightMode}
-                                className="img-fluid text-center w-100" alt="Projects Illustration" data-aos="fade-up" data-aos-duration="1800"
+                            <img src={props.darkMode ? ResumeDarkMode : ResumeLightMode}
+                                className="img-fluid text-center w-100" alt="Resume Illustration" data-aos="fade-up" data-aos-duration="1800"
                                 data-aos-once="false" data-aos-easing="ease-in-out"></img>
                         </div>
                     </div>
                 </div>
-                {projectCards}
+                {workCards}
             </div>
         </div>
-    );
+    )
 }
