@@ -1,3 +1,8 @@
+/** Illustrations Colors
+DarkMode: #EADDFF,
+LightMode: #24005A
+ */
+
 html {
   scroll-behavior: smooth;
   max-width: 100vw;
@@ -9,4 +14,8 @@ body {
   font-weight: 700;
   margin: 0;
   padding: 0;
+}
+
+.card {
+  border: none;
 }

@@ -7,6 +7,7 @@ import Appbar from './components/appbar/Appbar';
 import About from './components/about/About';
 import Theme1 from './themes/theme1';
 import Experience from './components/experience/Experience';
+import Work from './components/work/Work';
 import './App.css';
 import Projects from './components/projects/Projects';
 
@@ -62,7 +63,7 @@ function App() {
         }}>
         <About darkMode={darkMode} />
       </div>
-      <div
+      {/* <div
         // className='js-color-stop'
         // data-background-color={`${darkMode ? Theme1.DarkSurface3 : Theme1.Surface3}`}
         style={{
@@ -70,6 +71,24 @@ function App() {
           backgroundColor: darkMode ? Theme1.DarkSurface1 : Theme1.Surface1
         }}>
         <Experience darkMode={darkMode} />
+      </div>
+      <div
+        // className='js-color-stop'
+        // data-background-color={`${darkMode ? Theme1.DarkSurface3 : Theme1.Surface3}`}
+        style={{
+          color: darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+          backgroundColor: darkMode ? Theme1.DarkSurface1 : Theme1.Surface1
+        }}>
+        <Projects darkMode={darkMode} />
+      </div> */}
+      <div
+        // className='js-color-stop'
+        // data-background-color={`${darkMode ? Theme1.DarkSurface2 : Theme1.Surface2}`}
+        style={{
+          color: darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+          backgroundColor: darkMode ? Theme1.DarkSurface1 : Theme1.Surface1
+        }}>
+        <Work darkMode={darkMode} />
       </div>
       <div
         // className='js-color-stop'
