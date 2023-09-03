@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
-import uuid from "react-uuid";
 
 import Theme1 from "../../../themes/theme1";
-import Data from "../../../data/data";
 import ClockWidget from "../../../assets/mockups/clockwidget.png";
 import ClockWidgetDarkMode from "../../../assets/illustrations/projects/clockwidget-darkmode.svg";
 import ClockWidgetLightMode from "../../../assets/illustrations/projects/clockwidget-lightmode.svg";

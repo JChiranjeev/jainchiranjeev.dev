@@ -1,7 +1,5 @@
 import React from "react";
 import Theme1 from "../../themes/theme1";
-
-import Data from "../../data/data";
 import './Appbar.css'
 
 // import memeLogo from '../../assets/icons/meme-logo.png'

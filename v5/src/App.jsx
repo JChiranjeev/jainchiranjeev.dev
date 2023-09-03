@@ -1,12 +1,9 @@
 import React from 'react';
-import ScrollingColorBackground from "react-scrolling-color-background";
 import AOS from 'aos';
 
 import Hero from './components/hero/Hero';
-import Appbar from './components/appbar/Appbar';
 import About from './components/about/About';
 import Theme1 from './themes/theme1';
-import Experience from './components/experience/Experience';
 import Work from './components/work/Work';
 import './App.css';
 import Projects from './components/projects/Projects';

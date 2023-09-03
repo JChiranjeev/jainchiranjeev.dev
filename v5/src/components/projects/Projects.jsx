@@ -5,8 +5,8 @@ import Theme1 from "../../themes/theme1";
 import Data from "../../data/data";
 import ProjectsDarkMode from "../../assets/illustrations/projects-darkmode.svg";
 import ProjectsLightMode from "../../assets/illustrations/projects-lightmode.svg";
-import "./Projects.css";
 import ProjectCard from "./project-card/ProjectCard";
+import "./Projects.css";
 
 export default function Projects(props) {
     const projectCards = Data.projects.map(project => {

@@ -2,7 +2,6 @@ import React from "react";
 import AnimatedText from 'react-animated-text-content';
 import { TypeAnimation } from 'react-type-animation';
 
-import Theme1 from "../../themes/theme1";
 import Data from "../../data/data";
 import Skills from "./skills/Skills";
 
