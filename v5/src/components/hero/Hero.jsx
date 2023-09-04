@@ -28,30 +28,6 @@ export default function Hero(props) {
                             <strong>Jain Chiranjeev</strong>
                         </Zoom>
                     </h1>
-                    {/* <AnimatedText
-                        type="chars" // animate words or chars
-                        animationType="blocks"
-                        animation={{
-                            x: '200px',
-                            y: '-20px',
-                            scale: 1.1,
-                            ease: 'ease-in-out',
-                        }}
-                        interval={0.10}
-                        duration={1}
-                        tag="span"
-                        className="animated-paragraph"
-                        includeWhiteSpaces
-                        threshold={0.1}
-                        rootMargin="10%"
-                        style={{
-                            fontSize: "3rem"
-                        }}>
-                        {`${Data.name}`}
-                    </AnimatedText> */}
-                    {/* <span style={{
-                        fontSize: "3rem"
-                    }}>{`${Data.firstName} ${Data.lastName}`}</span> */}
                     <TypeAnimation
                         // Same String at the start will only be typed once, initially
                         sequence={[2500, ...Data.introductionSequence]}

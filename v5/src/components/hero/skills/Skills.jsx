@@ -64,7 +64,7 @@ export default function Skills(props) {
                     gradient={false}
                     gradientWidth={40}
                     style={{
-                        maxWidth: "50vw"
+                        maxWidth: "70vw",
                     }}>
                     {skillsTags}
                     {/* This is a Test Sentence This is a Test Sentence This is a Test Sentence This is a Test Sentence */}
