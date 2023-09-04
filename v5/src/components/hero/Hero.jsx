@@ -1,5 +1,4 @@
 import React from "react";
-import AnimatedText from 'react-animated-text-content';
 import { TypeAnimation } from 'react-type-animation';
 
 import Data from "../../data/data";
@@ -21,7 +20,10 @@ export default function Hero(props) {
                         fontWeight: "600",
                         maxWidth: "100vw"
                     }}>{Data.greeting}</span>
-                    <AnimatedText
+                    <span style={{
+                        fontSize: "3rem"
+                    }}>{`${Data.name}`}</span>
+                    {/* <AnimatedText
                         type="chars" // animate words or chars
                         animationType="blocks"
                         animation={{
@@ -41,7 +43,7 @@ export default function Hero(props) {
                             fontSize: "3rem"
                         }}>
                         {`${Data.name}`}
-                    </AnimatedText>
+                    </AnimatedText> */}
                     {/* <span style={{
                         fontSize: "3rem"
                     }}>{`${Data.firstName} ${Data.lastName}`}</span> */}
@@ -64,7 +66,7 @@ export default function Hero(props) {
                         fontSize: "1.1rem",
                         fontWeight: "600"
                     }}>
-                        <Skills darkMode={props.darkMode}/>
+                        <Skills darkMode={props.darkMode} />
                     </span>
                 </div>
             </div>
