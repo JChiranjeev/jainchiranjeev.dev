@@ -35,11 +35,12 @@ export default function Work(props) {
                 <div className="col-sm-12 col-md-6 col-lg-4 px-2 py-2" style={{
                     borderRadius: "2rem"
                 }}>
-                    <div className="card align-items-center justify-content-center py-2 h-100" style={{
-                        borderRadius: "2rem",
-                        backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
-                        color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
-                    }}>
+                    <div className="card align-items-center justify-content-center py-2 h-100" data-aos="fade-up" data-aos-duration="1350"
+                        data-aos-once="false" data-aos-easing="ease-in-out" style={{
+                            borderRadius: "2rem",
+                            backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
+                            color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
+                        }}>
                         <div className="card-body">
                             <h1 className="mt-5 text-center" style={{
                                 fontWeight: "700"
@@ -47,8 +48,7 @@ export default function Work(props) {
                                 Work Experience
                             </h1>
                             <img src={props.darkMode ? ResumeDarkMode : ResumeLightMode}
-                                className="img-fluid text-center w-100" alt="Resume Illustration" data-aos="fade-up" data-aos-duration="1800"
-                                data-aos-once="false" data-aos-easing="ease-in-out"></img>
+                                className="img-fluid text-center w-100" alt="Resume Illustration"></img>
                         </div>
                     </div>
                 </div>

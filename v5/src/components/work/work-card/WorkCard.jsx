@@ -44,11 +44,12 @@ export default function WorkCard(props) {
         <div className="col-sm-12 col-md-6 col-lg-4 px-2 py-2" style={{
             borderRadius: "2rem"
         }}>
-            <div className="card align-items-center justify-content-center pt-2 h-100" style={{
-                borderRadius: "2rem",
-                backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
-                color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
-            }}>
+            <div className="card align-items-center justify-content-center pt-2 h-100" data-aos="fade-up" data-aos-duration={props.dataAosDuration} data-aos-once="false" data-aos-easing="ease-in-out"
+                style={{
+                    borderRadius: "2rem",
+                    backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
+                    color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
+                }}>
                 <div className="mx-4 my-4 card-body d-flex flex-column">
                     <div className="embed-responsive">
                         <iframe className="mb-3 w-100"

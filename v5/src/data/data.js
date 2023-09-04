@@ -91,7 +91,7 @@ export default {
     ],
     work: [
         {
-            dataAosDuration: "1600",
+            dataAosDuration: "1500",
             position: "Consultant - Team Lead",
             company: "Hoonartek",
             companyUrl: "https://hoonartek.com/",
@@ -118,7 +118,7 @@ export default {
             awards: []
         },
         {
-            dataAosDuration: "1700",
+            dataAosDuration: "1650",
             position: "Associate Consultant - Azure Practice",
             company: "Dynamic Elements Technologies",
             companyUrl: "https://www.dynamicelements.no/",
@@ -210,7 +210,7 @@ export default {
             awards: []
         },
         {
-            dataAosDuration: "1900",
+            dataAosDuration: "1950",
             position: "Freelance Android & Web Developer",
             company: null,
             companyUrl: null,
@@ -243,6 +243,7 @@ export default {
     ],
     projects: [
         {
+            dataAosDuration: "1500",
             title: "Notes",
             illustrationName: "Notes",
             description: "Quickly capture what's on your mind at any place or time",
@@ -251,6 +252,7 @@ export default {
             githubUrl: "https://github.com/JChiranjeev/notes",
         },
         {
+            dataAosDuration: "1650",
             title: "Git Profile",
             illustrationName: "GitProfile",
             description: "Git Profile provides a nicer look to your Github Profile Stats and Information",
@@ -259,6 +261,7 @@ export default {
             githubUrl: "https://github.com/JChiranjeev/git-profile",
         },
         {
+            dataAosDuration: "1800",
             title: "Unit Converter",
             illustrationName: "UnitConverter",
             description: "An offline app to convert between units of measurements",
@@ -267,6 +270,7 @@ export default {
             githubUrl: "",
         },
         {
+            dataAosDuration: "1950",
             title: "Community Connect",
             illustrationName: "CommunityConnect",
             description: "A complex & robust application for managing members information in a community",
@@ -275,6 +279,7 @@ export default {
             githubUrl: "",
         },
         {
+            dataAosDuration: "2100",
             title: "Clock Widget",
             illustrationName: "ClockWidget",
             description: "Basic Material Designed Clock Widget that provides shortcut for all different OEMs clock apps",
@@ -283,6 +288,7 @@ export default {
             githubUrl: "",
         },
         {
+            dataAosDuration: "2250",
             title: "Offline Notes PWA",
             illustrationName: "OfflineNotes",
             description: "An offline notepad application for your browser",
@@ -291,6 +297,7 @@ export default {
             githubUrl: "https://github.com/JChiranjeev/offline-notes",
         },
         {
+            dataAosDuration: "2400",
             title: "Wally",
             illustrationName: "Wally",
             description: "Simple wallpaper application that provides high quality wallpapers",
