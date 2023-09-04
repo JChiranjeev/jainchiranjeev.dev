@@ -58,14 +58,11 @@ export default function Skills(props) {
         }}>
             <span className="d-inline me-3 align-middle">Skills:</span>
             <span>
-                <Marquee className="d-inline align-middle"
+                <Marquee className="d-inline align-middle w-50"
                     delay={2}
                     speed={20}
                     gradient={false}
-                    gradientWidth={40}
-                    style={{
-                        maxWidth: "70vw",
-                    }}>
+                    gradientWidth={40}>
                     {skillsTags}
                     {/* This is a Test Sentence This is a Test Sentence This is a Test Sentence This is a Test Sentence */}
                 </Marquee>
