@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeAnimation } from 'react-type-animation';
+import Zoom from 'react-reveal/Zoom';
 
 import Data from "../../data/data";
 import Skills from "./skills/Skills";
@@ -20,9 +21,13 @@ export default function Hero(props) {
                         fontWeight: "600",
                         maxWidth: "100vw"
                     }}>{Data.greeting}</span>
-                    <span style={{
+                    <h1 style={{
                         fontSize: "3rem"
-                    }}>{`${Data.name}`}</span>
+                    }}>
+                        <Zoom right cascade>
+                            <strong>Jain Chiranjeev</strong>
+                        </Zoom>
+                    </h1>
                     {/* <AnimatedText
                         type="chars" // animate words or chars
                         animationType="blocks"
