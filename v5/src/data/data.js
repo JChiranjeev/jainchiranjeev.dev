@@ -98,7 +98,7 @@ export default {
             startDate: "September 2022",
             endDate: "Current",
             coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60526.31549031848!2d73.85827355!3d18.5336592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1ed456aa677%3A0xc66f888156c06726!2sHoonartek!5e0!3m2!1sen!2sin!4v1693476126087!5m2!1sen!2sin",
-            workSummary: "Working as a Team Lead for multiple modules. Managing a team of 8 people with varied exp (4 - 12 Years).",
+            workSummary: "Currently working for a US Client in Organisational Consulting domain as a Team Lead for multiple modules. Managing a team of 8 people with varied exp (4 - 12 Years).",
             workDescription: [
                 {
                     client: "Client: Kornferry, USA",
@@ -174,7 +174,7 @@ export default {
             startDate: "Oct 2017",
             endDate: "June 2021",
             coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1332.3524446256497!2d72.99047459096289!3d19.1750222993891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c82199eff3c1%3A0xadc12a3ea95899a9!2sCapgemini%20Technology%20Services%20India%20Limited!5e0!3m2!1sen!2sin!4v1693475431906!5m2!1sen!2sin",
-            workSummary: "I worked with a Norwegian Client (Norges Idrets Forbund) on their product with Azure Services, Azure DevOps and Terraform",
+            workSummary: "While I was at Capgemini, I got chance to work with multiple clients from US, Europe on various domains like Finance, Insurance and Automotive Industry.",
             workDescription: [
                 {
                     client: "Client: ALD Automotive, EU",
@@ -217,7 +217,7 @@ export default {
             startDate: null,
             endDate: null,
             coordinates: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235014.29918009375!2d72.41493445785476!3d23.020158089023216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1693475636374!5m2!1sen!2sin",
-            workSummary: "I worked with a Norwegian Client (Norges Idrets Forbund) on their product with Azure Services, Azure DevOps and Terraform",
+            workSummary: "I created fully functional Android Apps with beautiful user interfaces as a freelancer.",
             workDescription: [
                 {
                     client: "Android Development",

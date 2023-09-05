@@ -77,7 +77,7 @@ export default function WorkCard(props) {
                     }
                     {(props.startDate && props.endDate) &&
                         <div className="d-block align-items-center" style={{
-                            fontSize: "0.8rem",
+                            fontSize: "1rem",
                             fontWeight: "600"
                         }}>
                             <img src={props.darkMode ? CalendarDarkMode : CalendarLightMode}
