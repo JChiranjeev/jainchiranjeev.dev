@@ -10,7 +10,8 @@ import "./Hero.css";
 export default function Hero(props) {
     return (
         <div className="vh-100 w-100 d-flex align-items-center justify-content-center" style={{
-            minHeight: "100vh"
+            minHeight: "100vh",
+            paddingBottom: "10rem"
         }}>
             <div className="container px-4 py-4" style={{
                 zIndex: 0

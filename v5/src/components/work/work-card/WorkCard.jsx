@@ -83,7 +83,7 @@ export default function WorkCard(props) {
                             <img src={props.darkMode ? CalendarDarkMode : CalendarLightMode}
                                 className="img-thumbnail my-0 px-0 py-0 me-2 align-text-bottom" style={{
                                     backgroundColor: "transparent",
-                                    height: "1.2rem",
+                                    height: "1.3rem",
                                 }}></img>
                             {props.startDate} - {props.endDate}
                         </div>
@@ -123,14 +123,11 @@ export default function WorkCard(props) {
                             backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
                             color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
                         }}>
-                            {awardsList}
-                            {/* <Button className="mt-auto btn btn-lg btn-block btn-light" onClick={handleClose} style={{
-                                backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
-                                color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
-                                border: "none"
-                            }}>
-                                Close
-                            </Button> */}
+                            {props.awards.length > 0 && (
+                                <div className="row w-100 text-center mb-3 mx-2">
+                                    {awardsList}
+                                </div>
+                            )}
                         </Modal.Footer>
                     </Modal>
                 </div>

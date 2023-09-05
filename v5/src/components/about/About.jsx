@@ -21,7 +21,8 @@ export default function About(props) {
 
     return (
         <div className="container w-100 d-flex align-items-center justify-content-center" style={{
-            minHeight: "100vh"
+            minHeight: "100vh",
+            paddingBottom: "10rem"
         }}>
             <div style={{
                 zIndex: 0

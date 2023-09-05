@@ -27,9 +27,10 @@ export default function Work(props) {
         );
     });
     return (
-        <div className="container align-items-center justify-content-center py-5" style={{
+        <div className="container align-items-center justify-content-center pt-5" style={{
             minHeight: "100vh",
-            overflow: "hidden"
+            overflow: "hidden",
+            paddingBottom: "10rem"
         }}>
             <div className="row px-2 py-2">
                 <div className="col-sm-12 col-md-6 col-lg-4 px-2 py-2" style={{

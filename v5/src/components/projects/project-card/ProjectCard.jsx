@@ -26,6 +26,12 @@ import UnitConverterLightMode from "../../../assets/illustrations/projects/unitc
 import Wally from "../../../assets/mockups/wally.png";
 import WallyDarkMode from "../../../assets/illustrations/projects/wally-darkmode.svg";
 import WallyLightMode from "../../../assets/illustrations/projects/wally-lightmode.svg";
+import GithubIconDarkMode from "../../../assets/icons/GithubIconDarkMode.svg";
+import GithubIconLightMode from "../../../assets/icons/GithubIconLightMode.svg";
+import PlaystoreIconDarkMode from "../../../assets/icons/PlaystoreIconDarkMode.svg";
+import PlaystoreIconLightMode from "../../../assets/icons/PlaystoreIconLightMode.svg";
+import UrlIconDarkMode from "../../../assets/icons/UrlIconDarkMode.svg";
+import UrlIconLightMode from "../../../assets/icons/UrlIconLightMode.svg";
 import "./ProjectCard.css";
 
 export default function ProjectCard(props) {
@@ -94,6 +100,7 @@ export default function ProjectCard(props) {
             }
         }
     }
+
     return (
         <div className="col-sm-12 col-md-6 col-lg-4 px-2 py-2" style={{
             borderRadius: "2rem"
@@ -123,13 +130,77 @@ export default function ProjectCard(props) {
                         }}>{props.description}</h6>
                     </div>
 
-                    <Button className="mt-auto btn btn-lg btn-block btn-light" onClick={handleShow} style={{
-                        backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
-                        color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
-                        border: "none"
-                    }}>
-                        Project Details
-                    </Button>
+                    <div className="mt-auto btn-toolbar d-flex">
+                        <div className="btn-group me-2 d-flex" style={{
+                            flex: "1"
+                        }}>
+                            <Button className="btn btn-lg btn-block btn-light" onClick={handleShow} style={{
+                                backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                border: "none"
+                            }}>
+                                Details
+                            </Button>
+                        </div>
+                        {
+                            props.githubUrl &&
+                            <div className="btn-group me-2">
+                                <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.githubUrl} style={{
+                                    backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                    color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                    border: "none",
+                                    alignItems: "center",
+                                    justifyContent: "center"
+                                }}>
+                                    <i style={{
+                                        backgroundImage: `url(${props.darkMode ? GithubIconDarkMode : GithubIconLightMode})`,
+                                        backgroundSize: "cover",
+                                        display: "inline-block",
+                                        height: "1.2rem",
+                                        width: "1.2rem"
+                                    }}></i>
+                                </a>
+                            </div>
+                        }
+                        {
+                            props.playStoreUrl &&
+                            <div className="btn-group">
+                                <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.playStoreUrl} style={{
+                                    backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                    color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                    border: "none",
+                                    alignItems: "center",
+                                    justifyContent: "center"
+                                }}>
+                                    <i style={{
+                                        backgroundImage: `url(${props.darkMode ? PlaystoreIconDarkMode : PlaystoreIconLightMode})`,
+                                        backgroundSize: "cover",
+                                        display: "inline-block",
+                                        height: "1.2rem",
+                                        width: "1.2rem"
+                                    }}></i>
+                                </a>
+                            </div>
+                        }
+                        {
+                            props.url &&
+                            <div className="btn-group">
+                                <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.url} style={{
+                                    backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                    color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                    border: "none",
+                                    alignItems: "center",
+                                    justifyContent: "center"
+                                }}>
+                                    <i style={{
+                                        backgroundImage: `url(${props.darkMode ? UrlIconDarkMode : UrlIconLightMode})`,
+                                        backgroundSize: "cover",
+                                        display: "inline-block"
+                                    }}></i>
+                                </a>
+                            </div>
+                        }
+                    </div>
 
                     <Modal show={show} onHide={handleClose} centered size="lg">
                         <Modal.Header closeButton style={{
@@ -154,6 +225,70 @@ export default function ProjectCard(props) {
                             backgroundColor: props.darkMode ? Theme1.DarkSecondaryContainer : Theme1.SecondaryContainer,
                             color: props.darkMode ? Theme1.DarkOnSecondaryContainer : Theme1.OnSecondaryContainer
                         }}>
+                            {
+                                props.githubUrl &&
+                                <div className="btn-group me-2">
+                                    <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.githubUrl} style={{
+                                        backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                        color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                        border: "none",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        fontSize: "1rem"
+                                    }}>
+                                        <i style={{
+                                            backgroundImage: `url(${props.darkMode ? GithubIconDarkMode : GithubIconLightMode})`,
+                                            backgroundSize: "cover",
+                                            display: "inline-block",
+                                            height: "1.2rem",
+                                            width: "1.2rem"
+                                        }}></i>
+                                        <span className="ms-3">Github</span>
+                                    </a>
+                                </div>
+                            }
+                            {
+                                props.playStoreUrl &&
+                                <div className="btn-group">
+                                    <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.playStoreUrl} style={{
+                                        backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                        color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                        border: "none",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        fontSize: "1rem"
+                                    }}>
+                                        <i style={{
+                                            backgroundImage: `url(${props.darkMode ? PlaystoreIconDarkMode : PlaystoreIconLightMode})`,
+                                            backgroundSize: "cover",
+                                            display: "inline-block",
+                                            height: "1.2rem",
+                                            width: "1.2rem",
+                                        }}></i>
+                                        <span className="ms-3">Playstore</span>
+                                    </a>
+                                </div>
+                            }
+                            {
+                                props.url &&
+                                <div className="btn-group">
+                                    <a className="btn btn-lg btn-block btn-light d-flex" target="_blank" href={props.url} style={{
+                                        backgroundColor: props.darkMode ? Theme1.DarkOnPrimaryContainer : Theme1.OnPrimaryContainer,
+                                        color: props.darkMode ? Theme1.DarkPrimaryContainer : Theme1.PrimaryContainer,
+                                        border: "none",
+                                        alignItems: "center",
+                                        justifyContent: "center",
+                                        fontSize: "1rem"
+                                    }}>
+                                        <i style={{
+                                            backgroundImage: `url(${props.darkMode ? UrlIconDarkMode : UrlIconLightMode})`,
+                                            backgroundSize: "cover",
+                                            display: "inline-block"
+                                        }}></i>
+                                        <span className="ms-3">Web</span>
+                                    </a>
+                                </div>
+                            }
                         </Modal.Footer>
                     </Modal>
                 </div>
