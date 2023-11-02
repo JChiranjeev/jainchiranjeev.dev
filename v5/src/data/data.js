@@ -89,6 +89,7 @@ export default {
         "Powershell Scripting",
         "Firebase"
     ],
+    getInTouchIntro: "Feel free to get in touch if you have a question or just want to say hi, I'll try my best to get back to you!",
     work: [
         {
             dataAosDuration: "1500",
@@ -104,14 +105,15 @@ export default {
                     client: "Client: Kornferry, USA",
                     descriptionList: [
                         "Working on .NET Core and Azure technologies for Global Organizational Consulting firm - Kornferry",
-                        "Team Lead for multiple modules. Managing a team with people with varied exp (4 - 12 Years). Trained the entire team on Microsoft Azure.",
-                        "Working directly with Clients without any mediators.",
+                        "Team Lead for multiple modules. Managing a team with people with varied exp (4 - 12 Years).",
                         "Redesigned and Re-Architect Learning Management Module Search API from the ground up.",
                         "Designed and Delivered Complete Integrations with multiple learning content providers (Udemy, Skillsoft and Pluralsight)",
+                        "Managed Implementation of Integration with multiple new Assessment providers",
                         "Regular hands-on with .NET Core 6.0, Azure Functions, ESB, Storage Accounts, App Service Plans, EFCore, PostgreSQL, ElasticIndex, Az CLI, Powershell and more",
                         "Multiple design patterns implemented as per module requirements. Mediator Pattern, Repository Pattern and Event Handler patterns.",
-                        "Working with more than 5 different module teams for integrations and handshakes for multiple features",
-                        "Managed complete delivery process and documentations every sprint for seamless"
+                        "Working with more than 5 different module teams for integrations and handshakes for multiple features.",
+                        "Managed complete delivery process and documentations every sprint for seamless delivery and deployments to Alpha and Production environments.",
+                        "Migrated client's Azure Infrastructure to completely new Subscription using Terraform and deployed all new environments."
                     ]
                 }
             ],
